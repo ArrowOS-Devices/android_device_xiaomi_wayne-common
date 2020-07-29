@@ -738,6 +738,23 @@ vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.sdm660.so
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml|e6632fbcb6af3082c4cd17afe26a4aab1e63c6ed
 vendor/etc/qdcm_calib_data_jdi_nt36672_fhd_video_mode_dsi_panel.xml|b3ebd0fcd2ed93e621b9a5c13a76ffca7b2c232d
 
+# DRM - from jasmine
+vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libsdedrm.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libqisl.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsdedrm.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libssd.so
+vendor/lib64/libStDrvInt.so
+
 # Fingerprint firmware - from jasmine
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
 etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
@@ -779,6 +796,12 @@ vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib/libkeymasterprovision.so
+vendor/lib/libkeymasterutils.so
+vendor/lib64/libkeymasterdeviceutils.so
+vendor/lib64/libkeymasterprovision.so
+vendor/lib64/libkeymasterutils.so
 
 # Sensors - from jasmine
 vendor/bin/sensors.qti
