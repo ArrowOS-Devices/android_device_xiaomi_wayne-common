@@ -46,10 +46,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl:64 \
-    android.hardware.vibrator@1.0-service
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/wayne-common/wayne-common-vendor.mk)
